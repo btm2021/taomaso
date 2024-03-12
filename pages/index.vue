@@ -24,6 +24,8 @@
           </b-form-group>
           <b-button variant="primary" @click="taoma">Tạo mã</b-button>
           <b-button variant="warning" @click="reset">Làm lại</b-button>
+
+          <a href="/intem.btw" download="/intem.btw">Tải file intem.btw</a>
         </b-col>
         <b-col cols="6">
           <b-table

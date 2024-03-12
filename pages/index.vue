@@ -116,7 +116,7 @@ export default {
           parseFloat(this.numberEnd) - parseFloat(this.numberStart) + 1;
         for (let i = 1; i < range + 1; i++) {
           let n = parseFloat(this.numberStart) + i - 1;
-          let result = `*${this.createString(n)}`;
+          let result = `-${this.createString(n)}`;
           this.csvResult.push({ maso: result });
         }
         let strHTML = "maso\n";

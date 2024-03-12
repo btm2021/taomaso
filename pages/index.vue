@@ -50,8 +50,10 @@
           1. Nhập vào số bắt đầu : ví dụ 0
           2. Nhập vào số kết thúc : ví dụ 100
           (Lưu ý : số bắt đầu và kết thúc là số giấy bạn để vào khay )
-          3. Ấn nút tạo mã, website sẽ tải về 1 file tên là maso.csv
+          3. Ấn nút tạo mã, website sẽ tải về 1 file tên là maso.csv, nếu file maso.csv bị đổi tên thành maso (n).csv thì vui lòng 
+          đổi tên file đó thành maso.csv
           4. Copy file đó về đặt vào thư mục C:\baophuong ( nếu chưa có thư mục C:\baophuong thì tạo mới thư mục tên là baophuong)
+          như vậy trong folder C:\baophuong sẽ có 2 file là intem.btw và maso.btw
           5. Double click vào file intem trong bảo phương
           6. Ấn Ctrl_P, In Tem
         </pre

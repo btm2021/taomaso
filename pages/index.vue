@@ -56,8 +56,9 @@
           đổi tên file đó thành maso.csv
           4. Copy file đó về đặt vào thư mục C:\baophuong ( nếu chưa có thư mục C:\baophuong thì tạo mới thư mục tên là baophuong)
           như vậy trong folder C:\baophuong sẽ có 2 file là intem.btw và maso.btw
-          5. Double click vào file intem trong bảo phương
-          6. Ấn Ctrl_P, In Tem
+          5. Double click vào file intem trong bảo phương,
+          6. Ấn Ctrl_P, chọn máy in
+          7. In tem
         </pre
           >
         </b-col>

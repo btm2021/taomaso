@@ -106,11 +106,15 @@ export default {
       document.body.removeChild(element);
     },
     taoma() {
-      if (this.numberEnd && this.numberStart) {
+      if (
+        this.numberEnd &&
+        this.numberStart &&
+        this.numberEnd > this.numberStart
+      ) {
         //tạo mã
         let range =
           parseFloat(this.numberEnd) - parseFloat(this.numberStart) + 1;
-        for (let i = 1; i < range; i++) {
+        for (let i = 1; i < range + 1; i++) {
           let n = parseFloat(this.numberStart) + i - 1;
           let result = `*${this.createString(n)}`;
           this.csvResult.push({ maso: result });

@@ -108,8 +108,7 @@ export default {
     taoma() {
       if (
         this.numberEnd &&
-        this.numberStart &&
-        this.numberEnd > this.numberStart
+        this.numberStart 
       ) {
         //tạo mã
         let range =
